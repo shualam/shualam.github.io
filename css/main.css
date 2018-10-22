@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300|Roboto:300");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  position: relative; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 1em 0;
+  text-transform: uppercase;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  line-height: 1em; }
+
+#underConstruction {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center; }
+  #underConstruction img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-bottom: 1em; }
+  #underConstruction h1 {
+    font-size: 1.5em; }
+  #underConstruction h2 {
+    font-size: 2.5em; }
+  #underConstruction .social-media-icon a {
+    display: inline-block;
+    font-size: 1.5em;
+    margin: 1em 0.5em;
+    color: #212; }
+  #underConstruction .social-media-icon a:nth-child(1) {
+    color: #1DA1F2; }
+  #underConstruction .social-media-icon a:nth-child(2) {
+    color: #0077B5; }
+  #underConstruction .social-media-icon a:nth-child(3) {
+    color: darkslategray; }
+  #underConstruction .social-media-icon a:nth-child(4) {
+    color: #EA4C89; }
+
+/*# sourceMappingURL=main.css.map */

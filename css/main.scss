@@ -1,0 +1,80 @@
+// Import Google Fonts
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300|Roboto:300');
+
+// Box sizing property 
+* {
+    box-sizing: border-box;
+}
+
+// Reset HTML and Body rules
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 1em 0;
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    line-height: 1em;
+}
+
+
+// Header
+#underConstruction {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 1em;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    img {
+        display: block;
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+        margin-bottom: 1em;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 2.5em;
+    }
+
+    .social-media-icon {
+        a {
+            display: inline-block;
+            font-size: 1.5em;
+            margin: 1em 0.5em;
+            color: #212;
+        }
+
+        a:nth-child(1) {
+            color: #1DA1F2;
+        }
+
+        a:nth-child(2) {
+            color: #0077B5;
+        }
+
+       a:nth-child(3) {
+            color: darkslategray;
+        }
+
+        a:nth-child(4) {
+            color: #EA4C89;
+        }
+    }
+}
